@@ -1,0 +1,6 @@
+framework module Pods_MSDNetworking_Example {
+  umbrella header "Pods-MSDNetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

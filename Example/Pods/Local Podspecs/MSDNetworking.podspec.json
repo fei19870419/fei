@@ -1,0 +1,27 @@
+{
+  "name": "MSDNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of MSDNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fei19870419/fei/MSDNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fei": "616063333@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fei19870419/fei/MSDNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MSDNetworking/Classes/**/*",
+  "resource_bundles": {
+    "MSDNetworking": [
+      "MSDNetworking/Assets/*.png"
+    ]
+  }
+}
