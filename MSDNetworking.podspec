@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/fei/MSDNetworking'
+  s.homepage         = 'https://github.com/fei19870419/fei/MSDNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fei' => '616063333@qq.com' }
-  s.source           = { :git => 'https://github.com/fei/MSDNetworking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fei19870419/fei/MSDNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'MSDNetworking/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MSDNetworking' => ['MSDNetworking/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'MSDNetworking' => ['MSDNetworking/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

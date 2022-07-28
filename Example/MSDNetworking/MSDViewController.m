@@ -8,6 +8,8 @@
 
 #import "MSDViewController.h"
 
+#import "MSDNetworking.h"
+
 @interface MSDViewController ()
 
 @end
@@ -17,13 +19,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view, typically from a nib.    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    MSDNetworking *working = [[MSDNetworking alloc] init];
+    
+    NSLog(@"%@",[working getSomething]);
 }
 
 @end
